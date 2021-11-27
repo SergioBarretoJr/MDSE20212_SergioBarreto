@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_h_fgEE8REeyP2fH9BJOumg" name="MachineLearningSystem" metaclassReference="_Jfh70E8SEeyP2fH9BJOumg">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rOCMU8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rQecU8ZEeyP2fH9BJOumg" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rQeck8ZEeyP2fH9BJOumg" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rQec08ZEeyP2fH9BJOumg" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rQedE8ZEeyP2fH9BJOumg" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rQedU8ZEeyP2fH9BJOumg" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rQedk8ZEeyP2fH9BJOumg" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_xGas0U8aEeyP2fH9BJOumg" name="MachineLearningSystem" nsURI="http:///schemas/MachineLearningSystem/_xGas0E8aEeyP2fH9BJOumg/1" nsPrefix="MachineLearningSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGas0k8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_TZSPME8SEeyP2fH9BJOumg"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7LE8aEeyP2fH9BJOumg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7LU8aEeyP2fH9BJOumg" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7Lk8aEeyP2fH9BJOumg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7L08aEeyP2fH9BJOumg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7ME8aEeyP2fH9BJOumg" key="Date" value="2021-11-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7MU8aEeyP2fH9BJOumg" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_8rOpQE8ZEeyP2fH9BJOumg" name="MachineLearningSystem" nsURI="http:///schemas/MachineLearningSystem/_8rOCME8ZEeyP2fH9BJOumg/0" nsPrefix="MachineLearningSystem">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rOpQU8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_TZSPME8SEeyP2fH9BJOumg"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRskE8ZEeyP2fH9BJOumg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRskU8ZEeyP2fH9BJOumg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRskk8ZEeyP2fH9BJOumg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRsk08ZEeyP2fH9BJOumg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRslE8ZEeyP2fH9BJOumg" key="Date" value="2021-11-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRslU8ZEeyP2fH9BJOumg" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_Jfh70E8SEeyP2fH9BJOumg" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iFah4E8REeyP2fH9BJOumg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_iFbwAE8REeyP2fH9BJOumg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_NVfgwE8SEeyP2fH9BJOumg" name="E_Dataset_Class5" memberEnd="_NVhV8E8SEeyP2fH9BJOumg _NVhV8U8SEeyP2fH9BJOumg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_NVhV8E8SEeyP2fH9BJOumg" name="extension_Dataset" type="_y3ILkE8REeyP2fH9BJOumg" aggregation="composite" association="_NVfgwE8SEeyP2fH9BJOumg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_TZSPME8SEeyP2fH9BJOumg" name="MLSys" metaclassReference="_VvNn8E8WEeyP2fH9BJOumg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rQecE8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_xGb68E8aEeyP2fH9BJOumg" name="MLSys" nsURI="http://MachineLearningSystem/schemas/MLSys/_xGbT4E8aEeyP2fH9BJOumg/1" nsPrefix="MLSys">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGciBk8aEeyP2fH9BJOumg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGciB08aEeyP2fH9BJOumg" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGciCE8aEeyP2fH9BJOumg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGciCU8aEeyP2fH9BJOumg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGciCk8aEeyP2fH9BJOumg" key="Date" value="2021-11-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGciC08aEeyP2fH9BJOumg" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb68U8aEeyP2fH9BJOumg" name="Dataset">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb68k8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y3ILkE8REeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb6808aEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb69U8aEeyP2fH9BJOumg" name="Algoritmosdeaprendizagem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb69k8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oxrBsE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb6908aEeyP2fH9BJOumg" key="originalName" value="Algoritmos de aprendizagem"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb6-E8aEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb6-k8aEeyP2fH9BJOumg" name="Algoritmosdepréprocessamento">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb6-08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tXzfUE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb6_E8aEeyP2fH9BJOumg" key="originalName" value="Algoritmos de pré-processamento"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb6_U8aEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb6_08aEeyP2fH9BJOumg" name="Visualizadordedesempenho">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7AE8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xpsyUE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7AU8aEeyP2fH9BJOumg" key="originalName" value="Visualizador de desempenho"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb7Ak8aEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_xGb7BE8aEeyP2fH9BJOumg" name="Enumeration9">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7BU8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_a_ywwE8WEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7Bk8aEeyP2fH9BJOumg" name="analisa">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7B08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CcMXwE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb7CE8aEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7Ck8aEeyP2fH9BJOumg" name="carrega">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7C08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CrTKwE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb7DE8aEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7Dk8aEeyP2fH9BJOumg" name="ajusta">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7D08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DQuzEE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xGb7EE8aEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_xGb7Ek8aEeyP2fH9BJOumg" name="Enumeration20">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7E08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MROjME8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_xGb7FE8aEeyP2fH9BJOumg" name="Enumeration21">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7FU8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MnUvAE8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_xGb7Fk8aEeyP2fH9BJOumg" name="Enumeration22">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7F08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QBUJoE8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7GE8aEeyP2fH9BJOumg" name="Removedoresdeoutlier" eSuperTypes="_xGb6-k8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7GU8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Je6-ME8aEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7Gk8aEeyP2fH9BJOumg" key="originalName" value="Removedores de outlier"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7HE8aEeyP2fH9BJOumg" name="Removedoresdevaloresvazios" eSuperTypes="_xGb6-k8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7HU8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Q_i3AE8aEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xGb7Hk8aEeyP2fH9BJOumg" key="originalName" value="Removedores de valores vazios"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7IE8aEeyP2fH9BJOumg" name="Normalizadores" eSuperTypes="_xGb6-k8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7IU8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cLdV0E8aEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7I08aEeyP2fH9BJOumg" name="Classificação" eSuperTypes="_xGb69U8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7JE8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_i4NhsE8aEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7Jk8aEeyP2fH9BJOumg" name="Regressão" eSuperTypes="_xGb69U8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7J08aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_k1cqcE8aEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xGb7KU8aEeyP2fH9BJOumg" name="Clusterizaao" eSuperTypes="_xGb69U8aEeyP2fH9BJOumg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xGb7Kk8aEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nZQD8E8aEeyP2fH9BJOumg"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_8rRFgE8ZEeyP2fH9BJOumg" name="MLSys" nsURI="http://MachineLearningSystem/schemas/MLSys/_8rP3YE8ZEeyP2fH9BJOumg/0" nsPrefix="MLSys">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rSTpk8ZEeyP2fH9BJOumg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rSTp08ZEeyP2fH9BJOumg" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rSTqE8ZEeyP2fH9BJOumg" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rSTqU8ZEeyP2fH9BJOumg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rSTqk8ZEeyP2fH9BJOumg" key="Date" value="2021-11-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rSTq08ZEeyP2fH9BJOumg" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFgU8ZEeyP2fH9BJOumg" name="Dataset">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFgk8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y3ILkE8REeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFg08ZEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFhU8ZEeyP2fH9BJOumg" name="Algoritmosdeaprendizagem">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFhk8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oxrBsE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRFh08ZEeyP2fH9BJOumg" key="originalName" value="Algoritmos de aprendizagem"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFiE8ZEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFik8ZEeyP2fH9BJOumg" name="Algoritmosdepréprocessamento">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFi08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tXzfUE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRFjE8ZEeyP2fH9BJOumg" key="originalName" value="Algoritmos de pré-processamento"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFjU8ZEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFj08ZEeyP2fH9BJOumg" name="Visualizadordedesempenho">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFkE8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xpsyUE8VEeyP2fH9BJOumg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8rRFkU8ZEeyP2fH9BJOumg" key="originalName" value="Visualizador de desempenho"/>
+          </eAnnotations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFkk8ZEeyP2fH9BJOumg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8rRFlE8ZEeyP2fH9BJOumg" name="Enumeration9">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFlU8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_a_ywwE8WEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFlk8ZEeyP2fH9BJOumg" name="Stereotype10">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFl08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFmE8ZEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFmk8ZEeyP2fH9BJOumg" name="analisa">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFm08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CcMXwE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFnE8ZEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFnk8ZEeyP2fH9BJOumg" name="carrega">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFn08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CrTKwE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFoE8ZEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFok8ZEeyP2fH9BJOumg" name="Stereotype13">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFo08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFpE8ZEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8rRFpk8ZEeyP2fH9BJOumg" name="ajusta">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFp08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DQuzEE8ZEeyP2fH9BJOumg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8rRFqE8ZEeyP2fH9BJOumg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8rRFqk8ZEeyP2fH9BJOumg" name="Enumeration20">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFq08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MROjME8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8rRFrE8ZEeyP2fH9BJOumg" name="Enumeration21">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFrU8ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MnUvAE8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8rRFrk8ZEeyP2fH9BJOumg" name="Enumeration22">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8rRFr08ZEeyP2fH9BJOumg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QBUJoE8ZEeyP2fH9BJOumg"/>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_VvNn8E8WEeyP2fH9BJOumg" alias="Association">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_y3ILkE8REeyP2fH9BJOumg" name="Dataset">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NVhV8U8SEeyP2fH9BJOumg" name="base_Class" association="_NVfgwE8SEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NVhV8k8SEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_oxrBsE8VEeyP2fH9BJOumg" name="Algoritmos de aprendizagem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2NXx0E8VEeyP2fH9BJOumg" name="base_Class" association="_2NXKwE8VEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2NXx0U8VEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_tXzfUE8VEeyP2fH9BJOumg" name="Algoritmos de pré-processamento">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1t4ZcE8VEeyP2fH9BJOumg" name="base_Class" association="_1t3LUE8VEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1t4ZcU8VEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_xpsyUE8VEeyP2fH9BJOumg" name="Visualizador de desempenho">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2uoEwU8VEeyP2fH9BJOumg" name="base_Class" association="_2undsE8VEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2uoEwk8VEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_1t3LUE8VEeyP2fH9BJOumg" name="E_Algoritmos de pré-processamento_Class5" memberEnd="_1t3yYE8VEeyP2fH9BJOumg _1t4ZcE8VEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_1t3yYE8VEeyP2fH9BJOumg" name="extension_Algoritmos de pré-processamento" type="_tXzfUE8VEeyP2fH9BJOumg" aggregation="composite" association="_1t3LUE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_2NXKwE8VEeyP2fH9BJOumg" name="E_Algoritmos de aprendizagem_Class6" memberEnd="_2NXKwU8VEeyP2fH9BJOumg _2NXx0E8VEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_2NXKwU8VEeyP2fH9BJOumg" name="extension_Algoritmos de aprendizagem" type="_oxrBsE8VEeyP2fH9BJOumg" aggregation="composite" association="_2NXKwE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_2undsE8VEeyP2fH9BJOumg" name="E_Visualizador de desempenho_Class7" memberEnd="_2uoEwE8VEeyP2fH9BJOumg _2uoEwU8VEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_2uoEwE8VEeyP2fH9BJOumg" name="extension_Visualizador de desempenho" type="_xpsyUE8VEeyP2fH9BJOumg" aggregation="composite" association="_2undsE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_a_ywwE8WEeyP2fH9BJOumg" name="Enumeration9"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CcMXwE8ZEeyP2fH9BJOumg" name="analisa">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HPo4oE8ZEeyP2fH9BJOumg" name="base_Association" association="_HPoRkE8ZEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HPo4oU8ZEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CrTKwE8ZEeyP2fH9BJOumg" name="carrega">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IMrIok8ZEeyP2fH9BJOumg" name="base_Association" association="_IMrIoE8ZEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IMrIo08ZEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_DQuzEE8ZEeyP2fH9BJOumg" name="ajusta">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JxdVIE8ZEeyP2fH9BJOumg" name="base_Association" association="_JxcuEE8ZEeyP2fH9BJOumg">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JxdVIU8ZEeyP2fH9BJOumg"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_HPoRkE8ZEeyP2fH9BJOumg" name="E_analisa_Association1" memberEnd="_HPoRkU8ZEeyP2fH9BJOumg _HPo4oE8ZEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_HPoRkU8ZEeyP2fH9BJOumg" name="extension_analisa" type="_CcMXwE8ZEeyP2fH9BJOumg" aggregation="composite" association="_HPoRkE8ZEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_IMrIoE8ZEeyP2fH9BJOumg" name="E_carrega_Association1" memberEnd="_IMrIoU8ZEeyP2fH9BJOumg _IMrIok8ZEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_IMrIoU8ZEeyP2fH9BJOumg" name="extension_carrega" type="_CrTKwE8ZEeyP2fH9BJOumg" aggregation="composite" association="_IMrIoE8ZEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_JxcuEE8ZEeyP2fH9BJOumg" name="E_ajusta_Association1" memberEnd="_JxcuEU8ZEeyP2fH9BJOumg _JxdVIE8ZEeyP2fH9BJOumg">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_JxcuEU8ZEeyP2fH9BJOumg" name="extension_ajusta" type="_DQuzEE8ZEeyP2fH9BJOumg" aggregation="composite" association="_JxcuEE8ZEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_MROjME8ZEeyP2fH9BJOumg" name="Enumeration20"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_MnUvAE8ZEeyP2fH9BJOumg" name="Enumeration21"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_QBUJoE8ZEeyP2fH9BJOumg" name="Enumeration22"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Je6-ME8aEeyP2fH9BJOumg" name="Removedores de outlier">
+      <generalization xmi:type="uml:Generalization" xmi:id="_g8pz8E8aEeyP2fH9BJOumg" general="_tXzfUE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Q_i3AE8aEeyP2fH9BJOumg" name="Removedores de valores vazios">
+      <generalization xmi:type="uml:Generalization" xmi:id="_hkVfAE8aEeyP2fH9BJOumg" general="_tXzfUE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_cLdV0E8aEeyP2fH9BJOumg" name="Normalizadores">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iKeR8E8aEeyP2fH9BJOumg" general="_tXzfUE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_i4NhsE8aEeyP2fH9BJOumg" name="Classificação">
+      <generalization xmi:type="uml:Generalization" xmi:id="_sX3TAE8aEeyP2fH9BJOumg" general="_oxrBsE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_k1cqcE8aEeyP2fH9BJOumg" name="Regressão">
+      <generalization xmi:type="uml:Generalization" xmi:id="_s1WgQE8aEeyP2fH9BJOumg" general="_oxrBsE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_nZQD8E8aEeyP2fH9BJOumg" name="Clusterizaao">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tQ83IE8aEeyP2fH9BJOumg" general="_oxrBsE8VEeyP2fH9BJOumg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
