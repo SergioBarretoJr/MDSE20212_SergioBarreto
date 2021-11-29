@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MLSys="http://MachineLearningSystem/schemas/MLSys/_0WYkAFEjEey5bOKcovMtNg/8" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://MachineLearningSystem/schemas/MLSys/_0WYkAFEjEey5bOKcovMtNg/8 MachineLearningSystem.profile.uml#_0WZLEFEjEey5bOKcovMtNg">
-  <uml:Model xmi:id="_atqFEFEdEey5bOKcovMtNg" name="MachineLearningSystem">
+  <uml:Model xmi:id="_atqFEFEdEey5bOKcovMtNg" name="MachineLearningSystem" visibility="public">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_auWBkFEdEey5bOKcovMtNg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_ggowUFEdEey5bOKcovMtNg" name="Train Dataset"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_jJtrYFEdEey5bOKcovMtNg" name="removeLines"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_mV0bAFEdEey5bOKcovMtNg" name="fillMean"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ATWUAFEeEey5bOKcovMtNg" name="treeAlgorithm"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_N0qj8FEeEey5bOKcovMtNg" name="confusionMatrix"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_TmD60FEeEey5bOKcovMtNg" memberEnd="_TmFI8lEeEey5bOKcovMtNg _TmGXEFEeEey5bOKcovMtNg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TmFI8FEeEey5bOKcovMtNg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TmFI8VEeEey5bOKcovMtNg" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_TmFI8lEeEey5bOKcovMtNg" name="treealgorithm" type="_ATWUAFEeEey5bOKcovMtNg" association="_TmD60FEeEey5bOKcovMtNg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_TmGXEFEeEey5bOKcovMtNg" name="confusionmatrix" type="_N0qj8FEeEey5bOKcovMtNg" association="_TmD60FEeEey5bOKcovMtNg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jJtrYFEdEey5bOKcovMtNg" name="removeLines">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LHPVwVFdEeyyeNkUs-zTCg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_LHNgkFFdEeyyeNkUs-zTCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LHP80FFdEeyyeNkUs-zTCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LHQj4FFdEeyyeNkUs-zTCg" value="1"/>
+      </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ZPaI8FEeEey5bOKcovMtNg" memberEnd="_ZPbXEVEeEey5bOKcovMtNg _ZPb-IFEeEey5bOKcovMtNg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZPawAFEeEey5bOKcovMtNg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZPbXEFEeEey5bOKcovMtNg" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ZPbXEVEeEey5bOKcovMtNg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_ZPaI8FEeEey5bOKcovMtNg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ZPb-IFEeEey5bOKcovMtNg" name="treealgorithm" type="_ATWUAFEeEey5bOKcovMtNg" association="_ZPaI8FEeEey5bOKcovMtNg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mV0bAFEdEey5bOKcovMtNg" name="fillMean">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_R0_AIVFdEeyyeNkUs-zTCg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_R0-ZEFFdEeyyeNkUs-zTCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R0_AIlFdEeyyeNkUs-zTCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R0_AI1FdEeyyeNkUs-zTCg" value="1"/>
+      </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ceKj8FEeEey5bOKcovMtNg" memberEnd="_ceLLAlEeEey5bOKcovMtNg _ceLLA1EeEey5bOKcovMtNg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ceLLAFEeEey5bOKcovMtNg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ceLLAVEeEey5bOKcovMtNg" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ceLLAlEeEey5bOKcovMtNg" name="removelines" type="_jJtrYFEdEey5bOKcovMtNg" association="_ceKj8FEeEey5bOKcovMtNg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ceLLA1EeEey5bOKcovMtNg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_ceKj8FEeEey5bOKcovMtNg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ATWUAFEeEey5bOKcovMtNg" name="treeAlgorithm">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UMYVUFFdEeyyeNkUs-zTCg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_UMWgIFFdEeyyeNkUs-zTCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UMY8YFFdEeyyeNkUs-zTCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UMY8YVFdEeyyeNkUs-zTCg" value="1"/>
+      </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_eEnkYFEeEey5bOKcovMtNg" memberEnd="_eEnkY1EeEey5bOKcovMtNg _eEoLcFEeEey5bOKcovMtNg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eEnkYVEeEey5bOKcovMtNg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eEnkYlEeEey5bOKcovMtNg" key="nature" value="UML_Nature"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N0qj8FEeEey5bOKcovMtNg" name="confusionMatrix">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_W_WMMFFdEeyyeNkUs-zTCg" name="treealgorithm" type="_ATWUAFEeEey5bOKcovMtNg" association="_W_UXAFFdEeyyeNkUs-zTCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W_WMMVFdEeyyeNkUs-zTCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_WzQFFdEeyyeNkUs-zTCg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LHNgkFFdEeyyeNkUs-zTCg" memberEnd="_LHPVwVFdEeyyeNkUs-zTCg _LHQj4VFdEeyyeNkUs-zTCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LHOusFFdEeyyeNkUs-zTCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LHPVwFFdEeyyeNkUs-zTCg" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_eEnkY1EeEey5bOKcovMtNg" name="fillmean" type="_mV0bAFEdEey5bOKcovMtNg" association="_eEnkYFEeEey5bOKcovMtNg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_eEoLcFEeEey5bOKcovMtNg" name="train dataset" type="_ggowUFEdEey5bOKcovMtNg" association="_eEnkYFEeEey5bOKcovMtNg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_LHQj4VFdEeyyeNkUs-zTCg" name="removelines" type="_jJtrYFEdEey5bOKcovMtNg" association="_LHNgkFFdEeyyeNkUs-zTCg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_R0-ZEFFdEeyyeNkUs-zTCg" memberEnd="_R0_AIVFdEeyyeNkUs-zTCg _R0_nMFFdEeyyeNkUs-zTCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R0-ZEVFdEeyyeNkUs-zTCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R0_AIFFdEeyyeNkUs-zTCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_R0_nMFFdEeyyeNkUs-zTCg" name="fillmean" type="_mV0bAFEdEey5bOKcovMtNg" association="_R0-ZEFFdEeyyeNkUs-zTCg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UMWgIFFdEeyyeNkUs-zTCg" memberEnd="_UMYVUFFdEeyyeNkUs-zTCg _UMZjcFFdEeyyeNkUs-zTCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UMXuQFFdEeyyeNkUs-zTCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UMXuQVFdEeyyeNkUs-zTCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UMZjcFFdEeyyeNkUs-zTCg" name="treealgorithm" type="_ATWUAFEeEey5bOKcovMtNg" association="_UMWgIFFdEeyyeNkUs-zTCg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_W_UXAFFdEeyyeNkUs-zTCg" memberEnd="_W_WMMFFdEeyyeNkUs-zTCg _W_WzQVFdEeyyeNkUs-zTCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W_VlIFFdEeyyeNkUs-zTCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W_VlIVFdEeyyeNkUs-zTCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_W_WzQVFdEeyyeNkUs-zTCg" name="confusionmatrix" type="_N0qj8FEeEey5bOKcovMtNg" association="_W_UXAFFdEeyyeNkUs-zTCg"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ejTg8FEdEey5bOKcovMtNg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ejUIAFEdEey5bOKcovMtNg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -54,9 +70,7 @@
   <MLSys:Removedoresdeoutlier xmi:id="_k7QhgFEdEey5bOKcovMtNg" base_Class="_jJtrYFEdEey5bOKcovMtNg"/>
   <MLSys:Removedoresdevaloresvazios xmi:id="_nZMjkFEdEey5bOKcovMtNg" base_Class="_mV0bAFEdEey5bOKcovMtNg"/>
   <MLSys:Classificação xmi:id="_D7uI4FEeEey5bOKcovMtNg" base_Class="_ATWUAFEeEey5bOKcovMtNg"/>
-  <MLSys:analisa xmi:id="_Udc10FEeEey5bOKcovMtNg" base_Association="_TmD60FEeEey5bOKcovMtNg"/>
-  <MLSys:carrega xmi:id="_aib3EFEeEey5bOKcovMtNg" base_Association="_ZPaI8FEeEey5bOKcovMtNg"/>
-  <MLSys:ajusta xmi:id="_dVAsYFEeEey5bOKcovMtNg" base_Association="_ceKj8FEeEey5bOKcovMtNg"/>
-  <MLSys:ajusta xmi:id="_ey6NwFEeEey5bOKcovMtNg" base_Association="_eEnkYFEeEey5bOKcovMtNg"/>
   <MLSys:Visualizadoresdedesempenho xmi:id="_Fv8Q0FEkEey5bOKcovMtNg" base_Class="_N0qj8FEeEey5bOKcovMtNg"/>
+  <MLSys:ajusta xmi:id="_QgPawFFdEeyyeNkUs-zTCg" base_Association="_LHNgkFFdEeyyeNkUs-zTCg"/>
+  <MLSys:carrega xmi:id="_VwHY8FFdEeyyeNkUs-zTCg" base_Association="_UMWgIFFdEeyyeNkUs-zTCg"/>
 </xmi:XMI>
